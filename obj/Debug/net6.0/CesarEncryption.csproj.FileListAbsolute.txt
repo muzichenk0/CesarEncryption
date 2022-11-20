@@ -1,0 +1,15 @@
+C:\Gloriest_Buildings\CesarEncryption\CesarEncryption\bin\Debug\net6.0\CesarEncryption.exe
+C:\Gloriest_Buildings\CesarEncryption\CesarEncryption\bin\Debug\net6.0\CesarEncryption.deps.json
+C:\Gloriest_Buildings\CesarEncryption\CesarEncryption\bin\Debug\net6.0\CesarEncryption.runtimeconfig.json
+C:\Gloriest_Buildings\CesarEncryption\CesarEncryption\bin\Debug\net6.0\CesarEncryption.dll
+C:\Gloriest_Buildings\CesarEncryption\CesarEncryption\bin\Debug\net6.0\CesarEncryption.pdb
+C:\Gloriest_Buildings\CesarEncryption\CesarEncryption\obj\Debug\net6.0\CesarEncryption.csproj.AssemblyReference.cache
+C:\Gloriest_Buildings\CesarEncryption\CesarEncryption\obj\Debug\net6.0\CesarEncryption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gloriest_Buildings\CesarEncryption\CesarEncryption\obj\Debug\net6.0\CesarEncryption.AssemblyInfoInputs.cache
+C:\Gloriest_Buildings\CesarEncryption\CesarEncryption\obj\Debug\net6.0\CesarEncryption.AssemblyInfo.cs
+C:\Gloriest_Buildings\CesarEncryption\CesarEncryption\obj\Debug\net6.0\CesarEncryption.csproj.CoreCompileInputs.cache
+C:\Gloriest_Buildings\CesarEncryption\CesarEncryption\obj\Debug\net6.0\CesarEncryption.dll
+C:\Gloriest_Buildings\CesarEncryption\CesarEncryption\obj\Debug\net6.0\refint\CesarEncryption.dll
+C:\Gloriest_Buildings\CesarEncryption\CesarEncryption\obj\Debug\net6.0\CesarEncryption.pdb
+C:\Gloriest_Buildings\CesarEncryption\CesarEncryption\obj\Debug\net6.0\CesarEncryption.genruntimeconfig.cache
+C:\Gloriest_Buildings\CesarEncryption\CesarEncryption\obj\Debug\net6.0\ref\CesarEncryption.dll
