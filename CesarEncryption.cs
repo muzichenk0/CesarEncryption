@@ -5,13 +5,11 @@ using System.Text;
 Console.Write("Type text: ");
 string ChoosenText = Console.ReadLine();
 
-
 Console.WriteLine("What do u want to do?\n 1 - Encrypt text\n 2 - DeCrypt text");
 int vibor = Int32.Parse(Console.ReadLine());
 
 ReadyComplect ToWork = new ReadyComplect(ChoosenText);
-
-CesarEncryption FirsAttempt = new CesarEncryption(ToWork, vibor);
+CesarEncryption process = new CesarEncryption(ToWork, vibor);
 
 class ReadyComplect
 {
@@ -22,7 +20,6 @@ class ReadyComplect
     private string Latin = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     public ReadyComplect(string text)
     {
-       
             Regex russian = new Regex("абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛИНОПРСТУФХЦЧШЩЬЫЬЭЮЯ");
             Match mr = russian.Match(text);
 
@@ -40,9 +37,6 @@ class ReadyComplect
             {
                 Alphavet = Kirillica + Latin;
             }
-
-       
-        
         TextToCrypt = text;
     }
 }
@@ -51,7 +45,6 @@ class CesarEncryption : ReadyComplect
 {
     public CesarEncryption(ReadyComplect nabor, int vibor) : base(nabor.TextToCrypt)
     {
-
         switch (vibor)
         {
             case 1:
@@ -61,10 +54,9 @@ class CesarEncryption : ReadyComplect
                 Console.WriteLine(DeCryption(nabor.TextToCrypt, nabor.Alphavet));
                 break;
         }
-
     }
 
-    public static string Encryption(string text, string Alpha)
+    private static string Encryption(string text, string Alpha)
     {
         var result = new StringBuilder();
         for (int i = 0; i < text.Length; i++)
@@ -80,14 +72,18 @@ class CesarEncryption : ReadyComplect
         }
         return result.ToString();
     }
-    public static string DeCryption(string text, string Alpha)
+    private static string DeCryption(string text, string Alpha)
     {
         var result = new StringBuilder();
         for (int i = 0; i < text.Length; i++)
         {
             for (int j = 0; j < Alpha.Length; j++)
             {
-                result.Append(Alpha[(j - 3 + Alpha.Length) % Alpha.Length ]);
+                if (text[i] == Alpha[j])
+                {
+                    result.Append(Alpha[(j - 3 + Alpha.Length) % Alpha.Length]);
+
+                }
             }
         }
         return result.ToString();
